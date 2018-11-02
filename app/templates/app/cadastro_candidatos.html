@@ -6,7 +6,7 @@
     <h1>Cadastro de candidatos</h1>
 </div>
 
-<table class="table">
+<table class="table" border="1">
     <tr><th>Nome dos candidatos</th><th>CPF</th><th>Endereco</th></tr>
         {% for candidato in candidatos %}
           <tr><td>{{ candidato.nome }}</td><td>{{ candidato.cpf }}</td><td>{{ candidato.endereco }}</td></tr>
