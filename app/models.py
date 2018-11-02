@@ -15,3 +15,5 @@ class Vestibular(models.Model):
 
 class Candidato(models.Model):
     nome = models.CharField(max_length=200)
+    cpf = models.CharField(max_lenght=20)
+    endereco = models.CharField(max_lenght=200)
