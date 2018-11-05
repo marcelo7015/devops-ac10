@@ -6,10 +6,10 @@
     <h1>Cadastro de candidatos</h1>
 </div>
 
-<table class="table">
-    <tr><th>Nome dos candidatos</th><th>CPF</th><th>RG</th></tr>
+<table class="table" border="1">
+    <tr><th>Nome dos candidatos</th><th>CPF</th><th>Endereco</th><th>Email</th><th>Celular</th></tr>
         {% for candidato in candidatos %}
-          <tr><td>{{ candidato.nome }}</td><td>{{ candidato.cpf }}</td><td>{{ candidato.endereco }}</td></tr>
+          <tr><td>{{ candidato.nome }}</td><td>{{ candidato.cpf }}</td><td>{{ candidato.endereco }}</td><td>{{ candidato.email }}</td><td>{{ candidato.celular }}</td></tr>
         {% endfor %}
 </table>
 
