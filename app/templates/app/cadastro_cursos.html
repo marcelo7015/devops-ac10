@@ -6,7 +6,7 @@
     <h1>Cadastro de cursos</h1>
 </div>
 
-<table class="table">
+<table class="table" border="1">
     <tr><th>Nome do curso</th><th>Período</th><th>Faculdade</th></tr>
         {% for curso in cursos %}
           <tr><td>{{ curso.nome }}</td><td>{{ curso.periodo }}</td><td>{{ curso.instituicao }}</td></tr>
